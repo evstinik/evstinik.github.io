@@ -23,6 +23,9 @@ dependencies:
   astro:
     specifier: ^4.8.6
     version: 4.8.6(typescript@5.4.5)
+  astro-google-analytics:
+    specifier: ^1.0.3
+    version: 1.0.3
   shiki:
     specifier: ^1.6.0
     version: 1.6.0
@@ -1569,6 +1572,10 @@ packages:
   /astring@1.8.6:
     resolution: {integrity: sha512-ISvCdHdlTDlH5IpxQJIex7BWBywFWgjJSVdwst+/iQCoEYnyOaQ95+X1JGshuBjGp6nxKUy1jMgE3zPqN7fQdg==}
     hasBin: true
+    dev: false
+
+  /astro-google-analytics@1.0.3:
+    resolution: {integrity: sha512-5bD7jA15yxVaUFVVEFG6KKMphYJ4AKP4+HSqCVBpTBnqh8LL0giTdAHpG9KJs3JaFbGQUTWP5Pqt8+twz7f55Q==}
     dev: false
 
   /astro@4.8.6(typescript@5.4.5):
