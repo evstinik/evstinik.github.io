@@ -1,32 +1,63 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import BaseHead from '../components/BaseHead.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts'
 ---
 
 <!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>Hi! I'm Nikita.</h1>
+<html lang='en'>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>Hi! I'm Nikita.</h1>
 
-			I'm a Software Engineer based in Prague, Czech Republic 🇨🇿. 
+      I'm a Software Engineer based in Prague, Czech Republic 🇨🇿.
 
-			<ul>
-				<li>I develop <a href="https://www.saboit.de/references/audi-dpa" target="_blank">complex and high-performance user interfaces</a> ⚡ using modern tools like React ⚛️ and WebGL.</li>
-				<li>I enjoy solving problems with software and take a practical approach to my work. My pet projects include a Teams lunch bot, a Telegram news bot, a personal finance app, and a streaming app.</li>
-				<li>In the past, I worked with the iOS platform using Swift and Objective-C and <a href="https://www.saboit.de/blog/lidar-data-in-arkit-3-5" target="_blank">explored</a> the early versions of ARKit.</li>
-				<li>I enjoy working with 3D graphics and VR, making <a href="https://hacknick.itch.io/christmas-mini-game" target="_blank">small games</a> and occasionally to participate in <a href="https://ldjam.com/events/ludum-dare/53/delirium-and-deliverance" target="_blank">game jams</a></li>
-				<li>I like electronic music, created few tracks, but also am learning to play piano 🎹</li>
-			</ul>
+      <ul>
+        <li>
+          I develop <a
+            href='https://www.saboit.de/references/audi-dpa'
+            target='_blank'>complex and high-performance user interfaces</a
+          > ⚡ using modern tools like React ⚛️ and WebGL.
+        </li>
+        <li>
+          I enjoy solving problems with software and take a practical approach
+          to my work. My pet projects include a Teams lunch bot, a Telegram news
+          bot, a personal finance app, and a streaming app.
+        </li>
+        <li>
+          In the past, I worked with the iOS platform using Swift and
+          Objective-C and <a
+            href='https://www.saboit.de/blog/lidar-data-in-arkit-3-5'
+            target='_blank'>explored</a
+          > the early versions of ARKit.
+        </li>
+        <li>
+          I enjoy working with 3D graphics and VR, making <a
+            href='https://hacknick.itch.io/christmas-mini-game'
+            target='_blank'>small games</a
+          > and occasionally to participate in <a
+            href='https://ldjam.com/events/ludum-dare/53/delirium-and-deliverance'
+            target='_blank'>game jams</a
+          >
+        </li>
+        <li>
+          I like electronic music and have created <a
+            href='https://soundcloud.com/pulse-infestation'
+            target='_blank'>several tracks</a
+          > 🎵 and I am learning to play the piano 🎹
+        </li>
+      </ul>
 
-			<p>Checkout my blog where I share my knowledge about building complex 3D systems for the web and other interesting stuff.</p>
-		</main>
-		<Footer />
-	</body>
+      <p>
+        Checkout my blog where I share my knowledge about building complex 3D
+        systems for the web and other interesting stuff.
+      </p>
+    </main>
+    <Footer />
+  </body>
 </html>
