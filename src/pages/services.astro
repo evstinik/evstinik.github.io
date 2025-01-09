@@ -1,0 +1,72 @@
+---
+import BaseHead from '../components/BaseHead.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts'
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={`Services | ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>Services</h1>
+
+      <p>
+        As a versatile Software Engineer, I specialize in building production-ready solutions
+        tailored to your needs. Whether you're looking for a web application, mobile development,
+        or immersive 3D experiences, I can help you bring your ideas to life.
+      </p>
+
+      <ul>
+        <li>
+          <strong>Full-Stack Development</strong>:  
+          I create efficient and scalable applications using <em>React</em> for the frontend 
+          and <em>Node.js</em> for the backend. From intuitive user interfaces to robust APIs, 
+          I deliver end-to-end solutions that work seamlessly.
+        </li>
+        <li>
+          <strong>Mobile App Development</strong>:  
+          With extensive experience in native iOS development using Swift, I can help you 
+          create high-quality mobile apps that feel great to use.
+        </li>
+        <li>
+          <strong>3D Web and Interactive Experiences</strong>:  
+          I build cutting-edge 3D experiences using <em>Three.js</em>, bringing interactive 
+          graphics and visualizations to the web. My expertise also includes creating immersive 
+          VR content with <em>Unity</em>.
+        </li>
+        <li>
+          <strong>Custom Solutions</strong>:  
+          Whether it's automating workflows, developing unique software for your business, 
+          or creating custom tools, I enjoy crafting solutions that solve real-world problems.
+        </li>
+        <li>
+          <strong>Consulting</strong>:  
+          Need technical advice or a fresh perspective on your project? I offer consulting 
+          services to help troubleshoot, optimize, or plan your software development efforts.
+        </li>
+      </ul>
+
+      <p>
+        Ready to get started?  
+        <a href="mailto:contact@astonishingdev.com" target="_self">Contact me</a> via email to discuss your project or ask for support about any purchased product.  
+        For urgent matters, please allow up to 48 hours for a response.
+      </p>
+
+      <p>
+        <strong>Refund Policy:</strong>  
+        All purchases of virtual credits in "Worlds" are final and non-refundable, except in cases where a technical issue prevents delivery. For assistance, contact <a href="mailto:contact@astonishingdev.com">contact@astonishingdev.com</a>.
+      </p>
+
+      <p>
+        <strong>Terms and Conditions:</strong>  
+        By purchasing virtual credits in "Worlds," you agree to the <a href="/terms-and-conditions" target="_self">Terms and Conditions</a>.
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>

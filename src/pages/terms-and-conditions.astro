@@ -1,0 +1,90 @@
+---
+import BaseHead from '../components/BaseHead.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts'
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={`Terms and Conditions | ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>Terms and Conditions</h1>
+
+      <p>Effective Date: 09.01.2025</p>
+
+      <h2>1. Introduction</h2>
+      <p>
+        Welcome to AstonishingDev! By accessing or using our services, products, 
+        or website, you agree to be bound by the following terms and conditions 
+        ("Terms"). If you do not agree, please discontinue use of our services 
+        immediately.
+      </p>
+
+      <h2>2. Services</h2>
+      <p>
+        We provide software development services and digital products, including 
+        but not limited to the "Worlds" application. Specific terms for each service 
+        or product may apply and will be outlined in associated agreements or policies.
+      </p>
+
+      <h2>3. Virtual Credits in "Worlds"</h2>
+      <p>
+        "Worlds" offers virtual credits ("Credits") for purchase, which can be used 
+        within the application. By purchasing Credits, you acknowledge and agree that:
+      </p>
+      <ul>
+        <li>Credits are non-refundable, except in cases of technical issues.</li>
+        <li>Credits have no real-world monetary value and cannot be exchanged for cash.</li>
+        <li>Unauthorized reselling, transferring, or trading of Credits is strictly prohibited.</li>
+        <li>We reserve the right to modify the availability, pricing, or use of Credits at any time.</li>
+      </ul>
+
+      <h2>4. Refund and Dispute Policy</h2>
+      <p>
+        All sales of virtual Credits are final. Refunds are issued only in cases 
+        where technical issues prevent the proper delivery of Credits. If you encounter 
+        an issue, please contact us at <a href="mailto:contact@astonishingdev.com">contact@astonishingdev.com</a>.
+      </p>
+
+      <h2>5. Intellectual Property</h2>
+      <p>
+        All content, trademarks, and intellectual property on this site and in our 
+        applications are owned by Nikita Evstigneev or its licensors. Unauthorized use 
+        of our intellectual property is prohibited.
+      </p>
+
+      <h2>6. Legal Restrictions</h2>
+      <p>
+        Our services and products are not available in countries restricted by 
+        international trade laws or sanctions. It is your responsibility to ensure 
+        compliance with applicable laws in your region.
+      </p>
+
+      <h2>7. Liability</h2>
+      <p>
+        Nikita Evstigneev shall not be liable for any indirect, incidental, or 
+        consequential damages arising from the use of our services or products. 
+        Our liability is limited to the maximum extent permitted by law.
+      </p>
+
+      <h2>8. Changes to Terms</h2>
+      <p>
+        We reserve the right to update these Terms at any time. Changes will be 
+        effective immediately upon posting. Continued use of our services indicates 
+        acceptance of the updated Terms.
+      </p>
+
+      <h2>9. Contact</h2>
+      <p>
+        For questions or concerns about these Terms, please contact us at:  
+        <a href="mailto:contact@astonishingdev.com">contact@astonishingdev.com</a>.
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>
